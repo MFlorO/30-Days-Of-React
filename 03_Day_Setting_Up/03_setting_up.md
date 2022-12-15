@@ -44,7 +44,7 @@ In the previous section, we learned about JSX and we accessed the React and Reac
 
 ## Node
 
-Node is a JavaScript runtime environment that allows JavaScript to run on the server. Node was created in 2009. Node has played a great role for the growth of JavaScript. The React application starts by default at localhost 3000. The create-react-app has configured a node server for the React Application. That is why we need node and node modules. We will see create-react-app soon.
+<span style="color: yellow"> Node is a JavaScript runtime environment that allows JavaScript to run on the server. </span> Node was created in 2009. Node has played a great role for the growth of JavaScript. The React application starts by default at localhost 3000. The create-react-app has configured a node server for the React Application. That is why we need node and node modules. We will see create-react-app soon.
 
 If you do not have node, install it. Install [node.js](https://nodejs.org/en/).
 
@@ -63,8 +63,8 @@ v12.18.0
 
 ## Module
 
-A single or multiple functions, that can be exported and imported when needed, can be included in a project.
-In React we do not use link to access modules or packages, instead we import the module. Let's see how to import and export a module or modules:
+<span style="color: yellow"> A single or multiple functions, that can be exported and imported when needed, can be included in a project. </span>
+<span style="color: yellow"> In React we do not use link to access modules or packages, instead we import the module. </span> Let's see how to import and export a module or modules:
 
 ```js
 // math.js
@@ -185,29 +185,25 @@ In the following React boilerplate, there are three folders: node_modules, publi
 
 It is good to know these folders and files.
 
-- node_modules - stores all the necessary node packages of the React applications.
+<span style="color: yellow"> - node_modules - stores all the necessary node packages of the React applications. </span>
 
-- Public
+<span style="color: yellow"> - Public : - index.html - the only HTML file we have in the entire application </span>
+- favicon.ico - an icon file
+<span style="color: yellow"> - manifest.json - is used to make the application a progressive web app </span>
+- other images - open graph images(open graph images are images which are visible when a link share on social media)
+<span style="color: yellow"> - robots.txt - information, if the website allows web scraping </span>
 
-  - index.html - the only HTML file we have in the entire application
+<span style="color: yellow"> - src </span>
+ - App.css, index.css - are different CSS files
+ - index.js - a file which allows to connect all the components with index.html
+ - App.js - A file where we usually import most of the presentational components
+ - serviceWorker.js: is used to add progressive web app features
+ - setupTests.js - to write testing cases 
 
-  - favicon.ico - an icon file
-  - manifest.json - is used to make the application a progressive web app
-  - other images - open graph images(open graph images are images which are visible when a link share on social media)
-  - robots.txt - information, if the website allows web scraping
-
-- src
-
-  - App.css, index.css - are different CSS files
-  - index.js - a file which allows to connect all the components with index.html
-  - App.js - A file where we usually import most of the presentational components
-  - serviceWorker.js: is used to add progressive web app features
-  - setupTests.js - to write testing cases
-
-- package.json- List of packages the applications uses
-- .gitignore - React boilerplate comes with git initiated, and the .gitingore allows files and folders not to be pushed to GitHub
-- README.md - Markdown file to write documentation
-- yarn.lock or package-lock.json - a means to lock the version of the package
+<span style="color: yellow">- package.json- List of packages the applications uses </span>
+<span style="color: yellow"> - .gitignore - React boilerplate comes with git initiated, and the .gitingore allows files and folders not to be pushed to GitHub </node>
+<span style="color: yellow"> - README.md - Markdown file to write documentation </node>
+<span style="color: yellow"> - yarn.lock or package-lock.json - a means to lock the version of the package </node>
 
 ![React Boilerplate](../images/react_boilerplate.png)
 
