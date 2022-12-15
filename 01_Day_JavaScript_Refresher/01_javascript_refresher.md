@@ -301,7 +301,8 @@ _Your main.js file should be below all other scripts_. It is very important to r
 
 ### 1. Variables
 
-We use _var_, _let_ and _const_ to declare a variable. The _var_ is functions scope, however _let_ and _const_ are block scope. In this challenge we use ES6 and above features of JavaScript. Avoid using _var_.
+
+<span style="color: yellow">We use _var_, _let_ and _const_ to declare a variable. The _var_ is functions scope, however _let_ and _const_ are block scope.</span> In this challenge we use ES6 and above features of JavaScript. Avoid using _var_.
 
 ```js
 let firstName = 'Asabeneh'
@@ -317,9 +318,9 @@ If you do not feel comfortable with data types check the following [link](https:
 
 ### 3. Arrays
 
-In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the index of the last element is less by one from the length of the array.
+<span style="color: yellow">In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the index of the last element is less by one from the length of the array.</span>
 
-An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
+<span style="color: yellow">An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.</span>
 
 #### How to create an empty array
 
@@ -567,7 +568,7 @@ console.log(countries)
 
 #### Methods to manipulate array
 
-There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
+<span style="color: yellow">There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_ </span>
 
 ##### Array Constructor
 
@@ -1037,13 +1038,15 @@ const webTechs = [
 
 ### 4. Conditionals
 
-Conditional statements are used for make decisions based on different conditions.
-By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+<span style="color: yellow"> Conditional statements are used for make decisions based on different conditions.
+By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways: </span>
 
-- Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
+<span style="color: yellow"> - Conditional execution: a block of one or more statements will be executed if a certain expression is true </span>
+<span style="color: yellow"> - Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here. </span>
 
-Conditions can be implementing using the following ways:
+<span style="color: yellow"> Conditions can be implementing using the following ways: </span>
+
+<span style="color: yellow">
 
 - if
 - if else
@@ -1051,9 +1054,11 @@ Conditions can be implementing using the following ways:
 - switch
 - ternary operator
 
+</span>
+
 #### If
 
-In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+<span style="color: yellow"> In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}). </span>
 
 ```js
 // syntax
@@ -1085,7 +1090,7 @@ The same goes for the second condition, if isRaining is false the if block will 
 
 #### If Else
 
-If condition is true the first block will be executed, if not the else condition will be executed.
+<span style="color: yellow"> If condition is true the first block will be executed, if not the else condition will be executed. </span>
 
 ```js
 // syntax
@@ -1132,11 +1137,11 @@ if (isRaining) {
 // No need for a rain coat.
 ```
 
-The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case, we would use _else if_ conditions.
+<span style="color: yellow"> The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case, we would use _else if_ conditions. </span>
 
 #### If Else if Else
 
-On our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use _else if_ when we have multiple conditions.
+<span style="color: yellow"> On our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use _else if_ when we have multiple conditions. </span>
 
 ```js
 // syntax
@@ -1180,8 +1185,8 @@ if (weather === 'rainy') {
 
 #### Switch
 
-Switch is an alternative for **if else if else else**.
-The switch statement starts with a _switch_ keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution does not go down after the condition is satisfied. The default block runs if all the cases don't satisfy the condition.
+<span style="color: yellow"> Switch is an alternative for **if else if else else**.
+The switch statement starts with a _switch_ keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution does not go down after the condition is satisfied. The default block runs if all the cases don't satisfy the condition. </span>
 
 ```js
 switch (caseValue) {
@@ -1266,7 +1271,7 @@ switch (true) {
 
 #### Ternary Operators
 
-Ternary operator is very common in _React_. It is a short way to write if else statement. In React we use ternary operator in many cases.
+<span style="color: yellow"> Ternary operator is very common in _React_. It is a short way to write if else statement. In React we use ternary operator in many cases. </span>
 
 To generalize, ternary operator is another way to write conditionals.
 
@@ -1374,18 +1379,18 @@ isRaining
 
 ### 5. Loops
 
-In programming we use different loops to carry out repetitive tasks. Therefore, loop can help us to automate tedious and repetitive task. JavaScript has also different types of loops which we can use to work on repetitive task.
+<span style="color: yellow"> In programming we use different loops to carry out repetitive tasks. Therefore, loop can help us to automate tedious and repetitive task. JavaScript has also different types of loops which we can use to work on repetitive task. </span>
 
 Imagine if your are asked to print Hello world one thousand times without a loop, it may take an hour or two to do this tedious task. However, using loop we can print it in less than a second.
 
-Loops:
-
+<span style="color: yellow"> Loops: </span>
 - for
 - while
 - do while
 - for of
 - forEach
 - for in
+
 
 A loop usually goes until the condition gets false. But sometimes we like to interrupt the loop or skip an item during iteration. We use _break_ to interrupt the loop and _continue_ to skip an item during iteration.
 
@@ -1603,15 +1608,14 @@ for (let i = 0; i <= 5; i++) {
 
 ### 6. Scope
 
-Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can declared at different scope. In this section we will see the scope, scope of variables when we use var or let.
-Variables scopes can be:
+<span style="color: yellow"> Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can declared at different scope. In this section we will see the scope, scope of variables when we use var or let. </span>
+<span style="color: yellow"> Variables scopes can be: </span>
 
 - Window
 - Global
 - Local
 
-Variable can be declared globally or locally or window scope. We will see both global and local scope.
-Anything declared without let, var or const is scoped at window level.
+<span style="color: yellow"> Variable can be declared globally or locally or window scope. We will see both global and local scope. Anything declared without let, var or const is scoped at window level. </span>
 
 Let us image we have a scope.js file.
 
@@ -1679,7 +1683,7 @@ letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
 ```
 
-Now, you have an understanding of scope. A variable declared with _var_ only scoped to function but variable declared with _let_ or _const_ is block scope(function block, if block, loop etc). Block in JavaScript is a code in between two curly brackets ({}).
+<span style="color: yellow"> Now, you have an understanding of scope. A variable declared with _var_ only scoped to function but variable declared with _let_ or _const_ is block scope(function block, if block, loop etc). Block in JavaScript is a code in between two curly brackets ({}). </span>
 
 ```js
 //scope.js
@@ -1724,7 +1728,7 @@ for (let i = 0; i < 3; i++) {
 // console.log(i), Uncaught ReferenceError: gravity is not defined
 ```
 
-The scope _let_ and _const_ is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use _let_ and _const_, by using _let_ and _const_ you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use _let_ for any value which change, _const_ for any constant value, and for array, object, arrow function and function expression.
+<span style="color: yellow"> The scope _let_ and _const_ is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use _let_ and _const_, by using _let_ and _const_ you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use _let_ for any value which change, _const_ for any constant value, and for array, object, arrow function and function expression. </span>
 
 ### 7. Object
 
