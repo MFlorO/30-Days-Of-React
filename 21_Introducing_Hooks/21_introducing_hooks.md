@@ -37,7 +37,7 @@ Different hooks have been introduced to React:Basic hooks and additional hooks
 
 ## Basic Hooks
 
-The basic hooks are:
+<span style="color: yellow"> The basic hooks are: </span>
 
 - useState
 - useEffect
@@ -47,7 +47,7 @@ The basic hooks are:
 
 Using hooks we can access state without writing a class based component. Let's use the same example we used for class based components on day 8.
 
-To use hooks, first we should import the _useState_ hooks from react. The useState is a function which takes one argument and returns a current state and functions that lets you update it.
+<span style="color: yellow"> To use hooks, first we should import the _useState_ hooks from react. The useState is a function which takes one argument and returns a current state and functions that lets you update it. </span>
 
 ```js
 // index.js
