@@ -30,7 +30,7 @@
 
 # React Project Folder Structure and File Naming
 
-There is no strict way to use a single folder structure or file naming in React project. Most of the time, these kind of choice can be made by a team. Sometimes a company may have a developed guidelines about what code conventions to follow, folder structure and file naming. There is no right or wrong way of structuring a React project but some structures are better than the others for scalability,maintainability, ease of working on files and easy to understand structure. If you like to learn further about folder structure you may check the following articles.
+<span style="color: yellow"> There is no strict way to use a single folder structure or file naming in React project. Most of the time, these kind of choice can be made by a team. Sometimes a company may have a developed guidelines about what code conventions to follow, folder structure and file naming. There is no right or wrong way of structuring a React project but some structures are better than the others for scalability,maintainability, ease of working on files and easy to understand structure. If you like to learn further about folder structure you may check the following articles. </span>
 
 - [React Folder Structure by https://www.devaradise.com ](https://www.devaradise.com/react-project-folder-structure)
 - [React Folder Structure by www.robinwieruch.de ](https://www.robinwieruch.de/react-folder-structure)
