@@ -31,15 +31,15 @@
 
 ## What is State?
 
-What is state ? The English meaning of state is _the particular condition that someone or something is in at a specific time_.
+<span style="color: yellow"> What is state ? The English meaning of state is _the particular condition that someone or something is in at a specific time_. </span>
 
 Let us see some states being something - Are you happy or sad? - Is light on or off ? Is present or absent ? - Is full or empty ? For instance, I am happy because I am enjoying creating 30 Days Of React challenge. I believe that you are happy too.
 
-State is an object in react which let the component re-render when state data changes.
+<span style="color: yellow"> State is an object in react which let the component re-render when state data changes. </span>
 
 ## How to set a state
 
-We set an initial state inside the constructor or outside the constructor of a class based component. We do not directly change or mutate the state but we use the _setState()_ method to reset to a new state. . As you can see below in the state object we have count with initial value 0. We can access the state object using _this.state_ and the property name. See the example below.
+We set an initial state inside the constructor or outside the constructor of a class based component. <span style="color: yellow"> We do not directly change or mutate the state but we use the _setState()_ method to reset to a new state. </span> . As you can see below in the state object we have count with initial value 0. We can access the state object using _this.state_ and the property name. See the example below.
 
 ```js
 // index.js
