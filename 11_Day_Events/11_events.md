@@ -29,11 +29,11 @@
 
 ## What is an event?
 
-An event is an action or occurrence recognized by a software. To make an event more clear let's use the daily activities we do when we use a computer such as clicking on a button, hover on an image, pressing a keyboard, scrolling the mouse wheel and etc. In this section, we will focus only some of the mouse and keyboard events. The react documentation has already a detail note about [events](https://reactjs.org/docs/handling-events.html).
+<span style="color: yellow"> An event is an action or occurrence recognized by a software. To make an event more clear let's use the daily activities we do when we use a computer such as clicking on a button, hover on an image, pressing a keyboard, scrolling the mouse wheel and etc. In this section, we will focus only some of the mouse and keyboard events. The react documentation has already a detail note about [events](https://reactjs.org/docs/handling-events.html). </span>
 
 Handling events in React is very similar to handling elements on DOM elements using pure JavaScript. Some of the syntax difference between handling event in React and pure JavaScript:
 
-- React events are named using camelCase, rather than lowercase.
+- <span style="color: yellow"> React events are named using camelCase, rather than lowercase.
 - With JSX you pass a function as the event handler, rather than a string.
 
 Let's see some examples to understand event handling.
@@ -113,8 +113,8 @@ class App extends Component {
 }
 ```
 
-Event handling is a very vast topic and in this challenge we will focus on the most common event types. We may use the following mouse and keyboard events.
-_onMouseMove, onMouseEnter, onMouseLeave, onMouseOut, onClick, onKeyDown, onKeyPress, onKeyUp, onCopy, onCut, onDrag, onChange,onBlur,onInput, onSubmit_
+<span style="color: yellow">  Event handling is a very vast topic and in this challenge we will focus on the most common event types. We may use the following mouse and keyboard events. </span>
+<span style="color: yellow"> _onMouseMove, onMouseEnter, onMouseLeave, onMouseOut, onClick, onKeyDown, onKeyPress, onKeyUp, onCopy, onCut, onDrag, onChange,onBlur,onInput, onSubmit_ </span>
 
 Let's implement some more mouse and keyboard events.
 
