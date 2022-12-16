@@ -20,7 +20,7 @@
 
 # Conditional Rendering
 
-As we can understand from the term, conditional rendering is a way to render different JSX or component at different condition. We can implement conditional rendering using regular if and else statement, ternary operator and &&. Let's implement a different conditional rendering.
+As we can understand from the term, <span style="color: yellow"> conditional rendering is a way to render different JSX or component at different condition. We can implement conditional rendering using regular if and else statement, ternary operator and &&. Let's implement a different conditional rendering. </span>
 
 ## Conditional Rendering using If and Else statement
 
@@ -411,7 +411,7 @@ ReactDOM.render(<App />, rootElement)
 
 ## Conditional Rendering using && Operator
 
-The && operator render the right JSX operand if the left operand(expression) is true.
+<span style="color: yellow"> The && operator render the right JSX operand if the left operand(expression) is true. </span>
 
 ```js
 // index.js
